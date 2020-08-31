@@ -28,8 +28,9 @@ hr {
   margin-top: 0;
 }
 
-#brand {
+.navbar-default #brand {
   margin: 30px;
+  color: black;
 }
 
 #main-buttom {
