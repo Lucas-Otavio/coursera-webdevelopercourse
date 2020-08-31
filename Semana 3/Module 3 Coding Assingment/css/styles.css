@@ -1,0 +1,77 @@
+* {
+  font-family: cursive;
+  color: black;
+}
+
+h1 {
+  color: black;
+}
+
+h3 {
+  text-align: center;
+  size: 1.2em;
+}
+
+a {
+  size: 1.2em;
+}
+
+p {
+  padding: 20px;
+}
+
+hr {
+  color: black;
+  width: 100%;
+  border: 0;
+  border-top: 1px solid black;
+  margin-top: 0;
+}
+
+#brand {
+  margin: 30px;
+}
+
+#main-buttom {
+  margin-top: -60px;
+}
+
+#collapsable-nav > #nav-list > #bottom-item > a{
+  color: black;
+}
+
+#header-nav {
+  background-color: #999;
+  border-bottom: 3px solid black;
+  border-radius: 0;
+}
+
+.navbar-header {
+  width: 95%;
+}
+
+.navbar-header span {
+  font-family: fantasy;
+  text-decoration-style: solid;
+  font-size: 4em;
+}
+
+.main-title {
+  margin-bottom: 60px;
+  font-family: cursive;
+}
+
+.tile {
+  background-color: #999;
+  border: 1px solid black;
+  margin: 30px;;
+}
+
+@media (max-width: 767px) {
+  #collapsable-nav {
+    background-color: white;
+    border: 3px solid black;
+    border-bottom: 0px;
+  }
+
+}
